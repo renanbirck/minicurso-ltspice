@@ -1,0 +1,82 @@
+\documentclass{beamer}
+\usepackage[brazilian]{babel}
+\usepackage[T1]{fontenc}        % pacote para conj. de caracteres correto
+\usepackage{fix-cm} %para funcionar corretamente o tamanho das fontes da capa
+\usepackage{color, xcolor}       % pacote para usar fonte Adobe Times e cores
+\usepackage[utf8]{inputenc}   % pacote para acentuação
+\usepackage{graphicx}  % pacote para importar figuras
+\usepackage{amsmath,latexsym,amssymb} %Pacotes matemáticos
+\usetheme{Rochester}
+\begin{document}
+\title{Introdução à Simulação de Circuitos com LTspice}
+\author{Renan Birck Pinheiro}
+\institute{Universidade Federal de Santa Maria}
+\date{\today} 
+
+\frame{\titlepage} 
+
+
+\begin{frame}
+\frametitle{Introdução} 
+Por que simular circuitos?
+\begin{itemize}
+\item Complexidade dos circuitos complica ou inviabiliza a análise manual;
+\item Dificuldade ou impossibilidade de prototipagem;
+\item Necessidade de agilizar o processo de desenvolvimento.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Limitações}
+\begin{itemize}
+\item Fabricantes \textbf{não fornecem modelos} para os componentes (ou esses são de baixa qualidade);
+\item \textbf{Comportamentos não-ideais} (ruído, campos magnéticos...) \textbf{não são modelados};
+\item \textbf{Tempo de simulação} pode ser um inconveniente.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{SPICE}
+\begin{itemize}
+\item \textbf{S}imulation \textbf{P}rogram with \textbf{I}ntegrated \textbf{C}ircuit \textbf{E}mphasis. Programa de Simulação com Ênfase em Circuitos Integrados;
+\item \textbf{Desenvolvido} nos anos 70 para grandes computadores, saída apenas em texto;
+\item Código aberto $\rightarrow$ surgiram diversos fabricantes criando novas versões; melhoria dos computadores pessoais permite o uso de gráficos;
+\item Usaremos o LTspice por ser gratuito.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Instalando o LTspice}
+Vá até \url{http://www.linear.com/ltspice} e baixe a versão para Windows (clique em \textit{Download LTspice for Windows} e depois em \textit{No, thanks})\footnote{Há uma versão para Mac disponível, a qual assumo ter as mesmas funções mas não tenho como testar}.
+\end{frame}
+
+\begin{frame}
+\frametitle{Interface do LTspice}
+\end{frame}
+
+\begin{frame}
+\frametitle{Desenhando um circuito}
+\end{frame}
+
+\begin{frame}
+\frametitle{Análise CA (domínio da frequência)}
+\end{frame}
+
+\begin{frame}
+\frametitle{Análise transiente (domínio do tempo)}
+\end{frame}
+
+\begin{frame}
+\frametitle{Varredura de parâmetros}
+\end{frame}
+
+\begin{frame}
+\frametitle{Análise de Fourier}
+\end{frame}
+
+\frame{
+    \Huge{OBRIGADO!}
+}
+\end{document}
+
+
